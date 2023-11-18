@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "id": 2,
-      "event_company": "Viva Track",
-      "date": "31",
-      "month": "Fab",
-      "company_name": "Hero Honda",
-      "time": "10:30 AM TO 06:30 PM",
-      "location": "Jaipur",
-      "event_type": "Corprate",
-      "manpower": "100",
-      "pay_one": "1000",
-      "pay_type": "online",
-      "about": "About Event"
-    },
-    {
       "event_company": "Viva Track",
       "date": "30",
       "month": "JAN",
@@ -23,10 +9,24 @@
       "location": "Gujrat",
       "event_type": "Birthday",
       "manpower": "10",
-      "pay_one": "1500",
+      "pay_one": "1500000",
       "pay_type": "Online",
       "about": "This Is a Birthday event ",
       "id": 3
+    },
+    {
+      "event_company": "Smj Events ",
+      "date": "23",
+      "month": "jan",
+      "company_name": "Hrx Wedding ",
+      "time": "10pm 12pm",
+      "location": "JIPUR",
+      "event_type": "wedding Event",
+      "manpower": "20",
+      "pay_one": "2000",
+      "pay_type": "cash",
+      "about": ", Thank You",
+      "id": 4
     }
   ]
 }

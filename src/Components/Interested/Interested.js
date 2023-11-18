@@ -2,6 +2,7 @@ import React from 'react'
 import  { useEffect, useState } from 'react'
 import '../EventWall/EventWall.css'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function Interested() {
     const [data , setData] = useState([])
@@ -61,7 +62,10 @@ export default function Interested() {
                                                     </ol>
                                                     <p>About Event = {d.about} </p>
                                                     <div className="widget-49-meeting-action">
-                                                        <button type="button" onClick={e => handleDelete(d.id)} className="btn btn-outline-danger" >Delete Evnet</button>
+                                                    <center>
+                                                        <button type="button"  className="btn m-2 btn-outline-success btn-sm" >Interested Pepole</button>
+                                                        <Link to={`/update/${d.id}`} type="button" class="btn btn-outline-primary btn-sm">Edit Event</Link> 
+                                                        <button type="button" onClick={e => handleDelete(d.id)} className="btn  m-2 btn-outline-danger btn-sm" >Delete Evnet</button></center>
                                                     </div>
                                                 </div>
                                             </div>

@@ -66,8 +66,9 @@ export default function EventWall() {
                                                         <li className="widget-49-meeting-item"><span>Pyment type = {d.pay_type} </span></li>
                                                     </ol>
                                                     <p>About Event = {d.about} </p>
+                                                    <p className="widget-49-meeting-points"></p>
                                                     <div className="widget-49-meeting-action">
-                                                        <button type="button" className="btn btn-outline-success" onClick={handleClickOpen}>Interested</button>
+                                                        <button type="button"    className="btn btn-outline-success" onClick={handleClickOpen}>Interested</button>
                                                     </div>
                                                 </div>
                                             </div>

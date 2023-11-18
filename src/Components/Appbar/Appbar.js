@@ -32,7 +32,7 @@ export default function Appbar() {
                             </li>
                             <li className="nav-item dropdown active">
                                 <a className="nav-link dropdown-toggle active" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Deshboard
+                                    Dashboard
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link to="/eventhost" className="dropdown-item" href="/" onClick={closeMenu}>Event Host</Link></li>
