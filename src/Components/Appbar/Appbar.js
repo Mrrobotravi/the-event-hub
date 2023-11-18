@@ -28,7 +28,7 @@ export default function Appbar() {
                                 <Link to="/" className="nav-link active" aria-current="page" onClick={closeMenu}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/model" className="nav-link active" href="/" onClick={closeMenu}>Event Wall</Link>
+                                <Link to="/eventwall" className="nav-link active" href="/" onClick={closeMenu}>Event Wall</Link>
                             </li>
                             <li className="nav-item dropdown active">
                                 <a className="nav-link dropdown-toggle active" href="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,7 +36,7 @@ export default function Appbar() {
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link to="/eventhost" className="dropdown-item" href="/" onClick={closeMenu}>Event Host</Link></li>
-                                    <li><a className="dropdown-item" href="/" onClick={closeMenu}>Interested people</a></li>
+                                    <li><Link className="dropdown-item" to="interested" onClick={closeMenu}>Interested people</Link></li>
 
                                 </ul>
                             </li>

@@ -3,7 +3,7 @@ import './Login.css'
 export default function Login() {
   return (
     <>
-    <div className="container">
+    <div className="container login">
   <div className="left">
     <div className="header">
       <h2 className="animation a1">Welcome Back</h2>
