@@ -34,10 +34,10 @@ const navigate = useNavigate();
     <>
       <div className='container'><br />
         <center><h2 className='table-active'>Create a Event</h2></center>
-        <form onSubmit={handleSubmit} ><br></br>
-          <div className="mb-3">
+        <form onSubmit={handleSubmit}  ><br></br>
+          <div className="mb-3"  >
             <TextField required id="standard-basic" className="form-control" label="Event company Name" variant="standard"  onChange={e => setValues({...values, event_company: e.target.value})} />
-            {/* <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div> */}
+            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
           </div>
           <div className="mb-3">
             <TextField required id="standard-basic" className="form-control" label="Event Location" variant="standard" onChange={e => setValues({...values, location: e.target.value})}/>

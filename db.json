@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "event_company": "Viva Track",
-      "date": "30",
-      "month": "JAN",
-      "company_name": "The Event Hub",
-      "time": "10 Am To 6 Pm ",
-      "location": "Gujrat",
-      "event_type": "Birthday",
-      "manpower": "10",
-      "pay_one": "1500000",
-      "pay_type": "Online",
-      "about": "This Is a Birthday event ",
-      "id": 3
-    },
-    {
       "event_company": "Smj Events ",
       "date": "23",
       "month": "jan",
@@ -26,7 +12,45 @@
       "pay_one": "2000",
       "pay_type": "cash",
       "about": ", Thank You",
-      "id": 4
+      "id": 4,
+      "name": [
+        {
+          "nameis": "ravi"
+        }
+      ]
+    },
+    {
+      "event_company": "the event hub",
+      "date": "14",
+      "month": "jan",
+      "company_name": "vr evnt",
+      "time": "10 am to 6 pm",
+      "location": "vadodara",
+      "event_type": "wedding",
+      "manpower": "90",
+      "pay_one": "5000",
+      "pay_type": "case",
+      "about": "This is wedding event",
+      "id": 5,
+      "name": [
+        {
+          "nameis": "ravi"
+        }
+      ]
+    },
+    {
+      "event_company": "Vr Event & Wedding",
+      "date": "28",
+      "month": "Jan",
+      "company_name": "Wedding Events",
+      "time": "6 Am To 10 Pm",
+      "location": "Goa",
+      "event_type": "Wedding",
+      "manpower": "20",
+      "pay_one": "5000",
+      "pay_type": "Online",
+      "about": "This is a wedding Event",
+      "id": 6
     }
   ]
 }

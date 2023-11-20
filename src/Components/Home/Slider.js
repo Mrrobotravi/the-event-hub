@@ -1,5 +1,8 @@
 import React from 'react'
 import slider1 from '../Home/Images/Slider1.jpg'
+import slider2 from '../Home/Images/Slider2.jpg'
+import slider3 from '../Home/Images/Slider3.jpg'
+
 
 export default function Slider() {
   return (
@@ -19,14 +22,14 @@ export default function Slider() {
       </div>
     </div>
     <div className="carousel-item">
-      <img src={slider1} className="d-block w-100" alt="slider Image"/>
+      <img src={slider2} className="d-block w-100" alt="slider"/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={slider1} className="d-block w-100" alt="..."/>
+      <img src={slider3} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>

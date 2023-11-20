@@ -16,7 +16,7 @@ export default function Appbar() {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand" >THE EVENT HUB</Link>
                     <button className="navbar-toggler" type="button" onClick={toggleMenu} >
@@ -37,6 +37,9 @@ export default function Appbar() {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link to="/eventhost" className="dropdown-item" href="/" onClick={closeMenu}>Event Host</Link></li>
                                     <li><Link className="dropdown-item" to="interested" onClick={closeMenu}>Interested people</Link></li>
+                                    <li><Link className="dropdown-item" to="demoin" onClick={closeMenu}>Demo in</Link></li>
+
+                                    
 
                                 </ul>
                             </li>

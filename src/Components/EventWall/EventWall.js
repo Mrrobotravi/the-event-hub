@@ -1,26 +1,27 @@
 import React, { useEffect, useState } from 'react'
 import '../EventWall/EventWall.css'
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
+// import Button from '@mui/material/Button';
+// import TextField from '@mui/material/TextField';
+// import Dialog from '@mui/material/Dialog';
+// import DialogActions from '@mui/material/DialogActions';
+// import DialogContent from '@mui/material/DialogContent';
+// import DialogContentText from '@mui/material/DialogContentText';
+// import DialogTitle from '@mui/material/DialogTitle';
 import axios from 'axios';
+import OpneHandel from './OpneHandel';
 
 
 export default function EventWall() {
 
-    const [open, setOpen] = React.useState(false);
+    // const [open, setOpen] = React.useState(false);
 
-    const handleClickOpen = () => {
-        setOpen(true);
-    };
+    // const handleClickOpen = () => {
+    //     setOpen(true);
+    // };
 
-    const handleClose = () => {
-        setOpen(false);
-    };
+    // const handleClose = () => {
+    //     setOpen(false);
+    // };
 
     const [data , setData] = useState([])
     useEffect(() => {
@@ -30,8 +31,8 @@ export default function EventWall() {
     },[])
 
   return (
-    <>
-      <div className="container" ><br/>
+    <><br/><br/>
+      <div className="container " ><br/>
                 <div className="row">
 
 
@@ -68,7 +69,8 @@ export default function EventWall() {
                                                     <p>About Event = {d.about} </p>
                                                     <p className="widget-49-meeting-points"></p>
                                                     <div className="widget-49-meeting-action">
-                                                        <button type="button"    className="btn btn-outline-success" onClick={handleClickOpen}>Interested</button>
+                                                        <OpneHandel/>
+                                                        {/* <button type="button"    className="btn btn-outline-success" onClick={handleClickOpen}>Interested</button> */}
                                                     </div>
                                                 </div>
                                             </div>
@@ -88,7 +90,7 @@ export default function EventWall() {
 <br/>
 
 
-            <div>
+            {/* <div>
 
 
 
@@ -151,7 +153,7 @@ export default function EventWall() {
         <Button variant="contained" onClick={handleClose}>Submit</Button>
     </DialogActions>
 </Dialog>
-</div>
+</div> */}
     </>
   )
 }

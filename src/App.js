@@ -8,6 +8,9 @@ import Update from './Components/CreateEvent/Update';
 import EventHost from './Components/CreateEvent/EventHost';
 import EventWall from './Components/EventWall/EventWall';
 import Interested from './Components/Interested/Interested';
+import Demoin from './Components/Interested/Demoin';
+import Footer from './Components/Appbar/Footer';
+
 
 function App() {
   return (
@@ -21,7 +24,9 @@ function App() {
         <Route path='/interested' element={<Interested />} />
         <Route path='/update/:id' element={<Update />} />
         <Route path='/eventwall' element={<EventWall />} />
+        <Route path='/demoin' element={<Demoin/>} />
       </Routes>
+      <Footer/>
     </>
   );
 }

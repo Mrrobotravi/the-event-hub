@@ -61,11 +61,12 @@ export default function Interested() {
                                                         <li className="widget-49-meeting-item"><span>Pyment type = {d.pay_type} </span></li>
                                                     </ol>
                                                     <p>About Event = {d.about} </p>
-                                                    <div className="widget-49-meeting-action">
-                                                    <center>
-                                                        <button type="button"  className="btn m-2 btn-outline-success btn-sm" >Interested Pepole</button>
+                                                    {/* <div className="widget-49-meeting-action"> */}
+                                                    <div className="text-center">
+                                                       <Link type="button"  to="/demoin"className="btn m-2 btn-outline-success btn-sm" >Interested Pepole</Link>
+                                                        {/* <button type="button"  className="btn m-2 btn-outline-success btn-sm" >Interested Pepole</button> */}
                                                         <Link to={`/update/${d.id}`} type="button" class="btn btn-outline-primary btn-sm">Edit Event</Link> 
-                                                        <button type="button" onClick={e => handleDelete(d.id)} className="btn  m-2 btn-outline-danger btn-sm" >Delete Evnet</button></center>
+                                                        <button type="button" onClick={e => handleDelete(d.id)} className="btn  m-2 btn-outline-danger btn-sm" >Delete Evnet</button>
                                                     </div>
                                                 </div>
                                             </div>
